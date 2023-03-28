@@ -1,11 +1,11 @@
 p {
-    color: red;
+    color: red ;
 }
 
 p {
-    color: blue;
+    color: blue !important;
 }
 
 p {
-    color: green;
+    color: green ;
 }
