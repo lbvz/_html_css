@@ -1,67 +1,66 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Color</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            blockquote {
+                /*
+                border-style: dashed;
+                border-width: 4px;
+                border-color: blueviolet;
+                */
+                border: dashed silver 4px;
+                color: green;
+                padding:1em;
+                background-color: beige;
+                background-clip:content-box;
+            }
+            a{
+                text-decoration: none;
+            }
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Color</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-</head>
-<style>
-    blockquote {
-        border-style: dashed;
-        border-width: 9px;
-        border-color: coral;
-        padding: .5em;
-        background-color: rgba(235, 237, 100, 0.315);
-        background-clip: border-box;
+            a:link{
+                color:maroon;
+            }
+            a:visited{
+                color:gray;
+            }
 
-    }
+            a:hover{
+                background-color: #ffd9d9;
+            }
 
-    a {
-        text-decoration: none;
-    }
+            a:active{
+                color:red;
+                background-color: #ffd9d9;
+            }
 
-    a:link {
-        color: rgba(128, 0, 43, 0.849);
-    }
+            p.warning{
+                color:aqua;
+            }
 
-    a:visited{
-        color: chartreuse;
-    }
+            p.warning::before{
+                content: "前面 ";
+                color:red;
+            }
 
-    a:hover {
-        background-color: rgba(0, 0, 255, 0.329);
-    }
+            p.warning::after{
+                content:"後面";
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <blockquote>
+            Ut nostrud duis nisi magna do ad laborum. Sit incididunt eu ipsum irure consequat non elit sunt occaecat aliqua amet ea pariatur. Ut mollit amet dolore deserunt nulla consequat. Pariatur ad labore exercitation ea reprehenderit commodo ea. Anim magna est id laboris dolore consectetur qui eiusmod dolor. Aliqua consequat dolore esse aliqua sunt ad enim veniam anim reprehenderit. Eu proident fugiat duis ex sit est nisi minim veniam consectetur Lorem dolor culpa do.
 
-    a:active {
-        color: aquamarine;
-    }
-    p.warning{
-        color: beige;
-    }
-    p.warning::before{
-        color: blue;
+        </blockquote>
+        <a href="http://www.google.com.tw">google</a>
 
-    }
-    p.warninig::after{
-        color: brown;
-    }
-</style>
-
-<body>
-    <blockquote>
-        Ut nostrud duis nisi magna do ad laborum. Sit incididunt eu ipsum irure consequat non elit sunt occaecat aliqua
-        amet ea pariatur. Ut mollit amet dolore deserunt nulla consequat. Pariatur ad labore exercitation ea
-        reprehenderit commodo ea. Anim magna est id laboris dolore consectetur qui eiusmod dolor. Aliqua consequat
-        dolore esse aliqua sunt ad enim veniam anim reprehenderit. Eu proident fugiat duis ex sit est nisi minim veniam
-        consectetur Lorem dolor culpa do.
-
-    </blockquote>
-    <a href="http://www.google.com.tw">Google</a>
-    <p class="warning"
-</body>
-
+        <p class="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </body>
 </html>
