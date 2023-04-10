@@ -25,21 +25,29 @@
     }
 
     a:link {
-        color: maroon;
+        color: rgba(128, 0, 43, 0.849);
     }
 
     a:visited{
         color: chartreuse;
     }
-    
 
     a:hover {
         background-color: rgba(0, 0, 255, 0.329);
-
     }
 
     a:active {
         color: aquamarine;
+    }
+    p.warning{
+        color: beige;
+    }
+    p.warning::before{
+        color: blue;
+
+    }
+    p.warninig::after{
+        color: brown;
     }
 </style>
 
@@ -53,6 +61,7 @@
 
     </blockquote>
     <a href="http://www.google.com.tw">Google</a>
+    <p class="warning"
 </body>
 
 </html>
