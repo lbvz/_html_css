@@ -15,7 +15,16 @@
     "footer"
 
 }
+#layout header{
+    grid-area: header;
 
+}
+#layout main{
+    grid-area:content ;
+}
+#layout footer{
+    grid-area:footer ;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
