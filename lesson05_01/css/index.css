@@ -1,5 +1,5 @@
 body{
-    background-color: lightgreen;
+    background-color: rgb(233, 230, 229);
 }
 #root {
     width: 100%;
@@ -10,7 +10,7 @@ body{
 #layout{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows:300px auto 200px;
+    grid-template-rows:auto auto 200px;
     grid-template-areas:
     "header"
     "content"
@@ -56,7 +56,14 @@ header h2{
     line-height: 1.5em;
     color: darkgreen;
     margin-top: 2em;
+
+}
+
+header img{
+    display: block;
+    margin: 0 auto 2em;
     
+
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
