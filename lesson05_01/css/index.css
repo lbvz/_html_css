@@ -3,7 +3,18 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
 
+#layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:300px 500px 200px;
+    grid-template-areas:
+    "header"
+    "content"
+    "footer"
+
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -41,4 +52,4 @@
     #root {
         width: 1320px;
     }
- 
+ }
