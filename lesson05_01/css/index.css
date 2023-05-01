@@ -50,7 +50,14 @@ body{
     text-align: center;
     margin: 2em 0em;
 }
-
+header h2{
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+    color: darkgreen;
+    margin-top: 2em;
+    
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     #root {
